@@ -8,9 +8,10 @@ namespace dotnetcore
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
-            Console.Write("What is your name? ");
-            string name = Console.ReadLine();
-            Console.WriteLine("Hello," + name);
+            //Console.Write("What is your name? ");
+            //string name = Console.ReadLine();
+            string name = Utils.Input("What is your name? ");
+            Console.WriteLine("Hello, " + name);
             Utils.Pause();
         }
     }
